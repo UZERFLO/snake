@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.board{
+  border: 10px aquamarine;
+  border-style: solid;
+  display: grid;
+  grid-template-columns: repeat(50,10px);
+  grid-template-rows: repeat(50,10px);
+}
+.cell{
+  width: 10px;
+  height: 10px;
+}
+.scell{
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+}
+.acell{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+.score{
+  color: aqua;
+}
